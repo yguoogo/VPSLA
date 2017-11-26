@@ -25,7 +25,7 @@ getFilteredAllSuboptimalAlignment(
     indelPenalty = -10,
     affineStart = -12,
     affineExtend = -3,
-    threshold = 60,
+    threshold = 30,
     width = 3,
     plotAllAlignments = false,
     plotGroupAlignments = false
@@ -38,7 +38,7 @@ getFilteredAllSuboptimalAlignment(
 * indelPenalty: Integer, indel penalty for indels, enabled if useAffine = false, the default value is -10
 * affineStart: Integer, affine start penalty, enabled if useAffine = true, the defalut value is -12
 * affineExtend: Integer, affine extend penalty for every indels after the fist position, enabled if useAffine = true, the default value is -3
-* threshold: Integer, threshold for qualified suboptimal alignments
+* threshold: Integer, threshold for qualified suboptimal alignments, the default value is 30
 * width: Integer, use to eliminate redundant local alignments, the default value is 3
 * plotAllAlignments: Boolean, set to true if you wish to see all local alignments in one graph, the default value is false.
 * plotGroupAlignments: Boolean, set to true if you wish to view only repeated suboptimal alignments, the default value is false.
